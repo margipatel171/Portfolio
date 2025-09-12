@@ -1,5 +1,4 @@
 # Welcome to Margi Patel's Portfolio
-Data and Business Analytics Portfolio
 
 This repository showcases my projects across different domains, using **Python, R, SQL, Excel, and Power BI**.  
 Each project demonstrates my ability to collect, clean, analyze, and visualize data to support business decision-making.  
@@ -58,6 +57,7 @@ Each project demonstrates my ability to collect, clean, analyze, and visualize d
 ---
 
 ## 📬 Contact Me
-- 📧 Email: *your email here*  
-- 🔗 LinkedIn: *your LinkedIn link here*  
-- 📂 Portfolio: This GitHub repository 😊  
+- 📧 [Email](margipatel17198@gmail.com)
+- 📞 +1 (647) 224 4309
+- 🔗 [LinkedIn](www.linkedin.com/in/margi-patel--)
+  
