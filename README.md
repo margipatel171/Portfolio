@@ -1,7 +1,6 @@
 # Welcome to Margi Patel's Portfolio
-Data and Business Analytics Portfolio# 📊 Data Analytics Portfolio
+Data and Business Analytics Portfolio
 
-Welcome to my Data Analytics Portfolio!  
 This repository showcases my projects across different domains, using **Python, R, SQL, Excel, and Power BI**.  
 Each project demonstrates my ability to collect, clean, analyze, and visualize data to support business decision-making.  
 
