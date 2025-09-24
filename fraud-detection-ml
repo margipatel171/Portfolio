@@ -1,0 +1,91 @@
+## 📌 Project Overview
+
+Fraudulent transactions are a major concern in the financial sector, leading to billions in annual losses. Detecting fraud in real-time is essential to protect both organizations and customers.
+
+In this project, I built and evaluated machine learning models to classify transactions as **fraudulent (1)** or **legitimate (0)**. I compared Logistic Regression, Random Forest, and XGBoost, and achieved **near-perfect performance** on the dataset.
+
+---
+
+## 🗂 Dataset
+
+* **Source:** \[Add dataset link here, e.g., Kaggle – Credit Card Fraud Detection]
+* **Size:** 170,589 records
+* **Features:** Transaction details (amount, anonymized variables, etc.)
+* **Target Variable:**
+
+  * `0` → Legitimate transaction
+  * `1` → Fraudulent transaction
+
+---
+
+## ⚙️ Tools & Libraries
+
+* **Python**
+* **Data Processing:** Pandas, NumPy
+* **Machine Learning:** Scikit-learn, XGBoost
+* **Visualization:** Matplotlib, Seaborn
+
+---
+
+## 🚀 Project Workflow
+
+1. **Data Preprocessing**
+
+   * Checked for missing values
+   * Standardized features
+   * Explored class imbalance
+
+2. **Model Training**
+
+   * Logistic Regression
+   * Random Forest Classifier
+   * XGBoost Classifier
+
+3. **Model Evaluation**
+
+   * Accuracy
+   * Precision, Recall, F1-score
+   * Confusion Matrix
+
+---
+
+## 📊 Results
+
+### ✅ XGBoost Performance
+
+```
+Confusion Matrix:
+ [[85203    92]
+ [    0 85294]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     85295
+           1       1.00      1.00      1.00     85294
+
+    accuracy                           1.00    170589
+   macro avg       1.00      1.00      1.00    170589
+weighted avg       1.00      1.00      1.00    170589
+```
+
+* **Accuracy:** \~100%
+* **Very low misclassification rate** (only 92 out of 170k transactions)
+
+---
+
+## 🔮 Next Steps
+
+* Validate performance on **real-world, larger datasets**
+* Implement a **real-time fraud detection pipeline**
+* Experiment with **deep learning models** (e.g., LSTM, Autoencoders)
+* Deploy using **Flask / FastAPI + Streamlit dashboard**
+
+---
+
+## 🏆 Key Takeaways
+
+* Machine learning models (especially XGBoost) are highly effective in fraud detection.
+* Metrics like **precision & recall** are more meaningful than accuracy alone when dealing with fraud.
+* This project demonstrates the complete ML workflow: preprocessing → training → evaluation → interpretation.
+
